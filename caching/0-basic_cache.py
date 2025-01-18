@@ -18,4 +18,3 @@ class BasicCache(BaseCaching):
             return self.cache_data[key]
         return None
     # END-of-file (EOF)
-    
