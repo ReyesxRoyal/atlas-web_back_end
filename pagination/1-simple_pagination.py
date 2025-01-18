@@ -26,7 +26,7 @@ class Server:
 
     def get_page(self, page: int = 1, page_size: int = 10) -> List[List]:
         ''' def get page '''
-        assert type(page_size) is int and type(page) is int
+        assert isinstance(page_size, int) and isinstance(page, int)
         assert page > 0
         assert page_size > 0
         self.dataset()
