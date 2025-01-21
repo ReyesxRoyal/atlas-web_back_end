@@ -16,9 +16,11 @@ class Server:
         self.__dataset = None
         self.__indexed_dataset = None
 
+
         return {
             "index": index,
             "next_index": i,
             "page_size": page_size,
             "data": d
         }
+    
