@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """function for encrypting passwords"""
-import bcrypt # type: ignore
+import bcrypt  # type: ignore
 
 
 def hash_password(password: str) -> bytes:
